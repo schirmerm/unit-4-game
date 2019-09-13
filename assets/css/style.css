@@ -1,0 +1,15 @@
+body{
+    
+    text-align:center;
+}
+#instructions{
+    background: rgba(0, 140, 255, 0.911);
+    width: 400px;
+    height: 400px;
+    align-content: center;
+}
+.images{
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
