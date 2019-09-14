@@ -1,15 +1,30 @@
-body{
-    
-    text-align:center;
+#title{
+    display: flex;
+    justify-content: center;
 }
 #instructions{
     background: rgba(0, 140, 255, 0.911);
-    width: 400px;
-    height: 400px;
-    align-content: center;
+   
+    
 }
 .images{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     display: inline;
+}
+#randomNumber{
+    width: 150px;
+    height: 150px;
+    border: solid;
+
+}
+#score{
+    border: solid;
+    background: grey;
+    height: 150px;
+}
+#wins_losses{
+    border: solid;
+    background: red;
+    height: 150px;
 }
